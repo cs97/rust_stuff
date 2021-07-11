@@ -50,6 +50,8 @@ fn main() {
 	
 	println!("{}", "");
 	println!("{}", "neuron:");
-	println!("{:?}", neuron(&v1, &vx)); 
+	println!("{:?}", neuron(&v1, &vx));
+	println!("{:?}", neuron(&v2, &vx)); 
+	println!("{:?}", neuron(&v3, &vx)); 
 
 }
